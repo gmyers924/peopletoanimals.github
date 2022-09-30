@@ -66,3 +66,8 @@ article {
 	background-color: white;
 	text-align: center;
 	font-size: 40px;	
+@media screen and (max-width: 800px) {
+  header, footer, main,nav {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
